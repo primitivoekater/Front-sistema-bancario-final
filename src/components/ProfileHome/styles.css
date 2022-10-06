@@ -1,0 +1,40 @@
+.container__profile {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 40px;
+    right: 138px;
+}
+
+.profile__photo {
+    border-radius: 50%;
+    background: #dedee9;
+    padding: 10px;
+}
+
+.profile__username {
+    margin: 0px 8px 0px 16px;
+    font-family: "Nunito";
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: var(--cor-primaria-verde);
+}
+
+.modal__profile {
+    display: flex;
+    width: 92px;
+    height: 51px;
+    padding: 8px 15px;
+    gap: 16px;
+    position: absolute;
+    right: 75px;
+    top: 75px;
+    background: #ffffff;
+    border-radius: 8px;
+    filter: drop-shadow(0px 4px 42px rgba(0, 0, 0, 0.2));
+}
+
+.modal__profile img {
+    cursor: pointer;
+}

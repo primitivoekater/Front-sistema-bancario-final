@@ -1,0 +1,72 @@
+.container__modal__detailCharge {
+  width: 600px;
+  height: 461px;
+  background: #ffffff;
+  border-radius: 30px;
+  padding: 40px 57px;
+  position: relative;
+}
+
+.detailCharge__header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.detailCharge__header h2 {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 43px;
+  color: #3f3f55;
+  margin-bottom: 8px;
+}
+
+.container__modal__detailCharge h4 {
+  font-family: "Nunito";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3f3f55;
+}
+
+.detailCharge__container-name,
+.detailCharge__container-description {
+  margin-bottom: 24px;
+}
+
+.detailCharge__container-name span,
+.detailCharge__container-description span,
+.detailCharge__container-id span {
+  font-family: "Nunito";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3f3f55;
+}
+
+.detailCharge__container-flex {
+  display: flex;
+  gap: 150px;
+  margin-bottom: 24px;
+}
+
+.detailCharge__container-date span,
+.detailCharge__container-value span {
+  font-family: "Nunito";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #3f3f55;
+}
+
+.detailCharge__container-status span {
+  padding: 0px 8px;
+  border-radius: 8px;
+  height: 19px;
+  font-family: "Nunito";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+}

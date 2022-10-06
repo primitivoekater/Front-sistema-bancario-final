@@ -1,0 +1,26 @@
+.pageClient__popUp {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 11;
+  width: 330px;
+  height: 54px;
+  box-shadow: 0px 4px 42px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  position: fixed;
+  bottom: 66px;
+  right: 112px;
+}
+
+.pageClient__popUp-text {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.pageClient__popUp-text p {
+  font-family: "Nunito";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}

@@ -1,0 +1,120 @@
+.card__resume {
+  padding: 23px 40px;
+  width: 360px;
+  height: 111px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 54px;
+}
+
+.resume__title {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #3f3f55;
+}
+
+.resume__value {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  color: #3f3f55;
+}
+
+.card__details {
+  width: 360px;
+  margin-top: 24px;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+.details__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  height: 58px;
+  border-bottom: 2px solid #e5e5e8;
+}
+
+.details__title span {
+  padding: 0px 15px;
+  border-radius: 8px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.details__table,
+.details__content {
+  display: flex;
+  border-bottom: 1px solid #e5e5e8;
+}
+
+.details__table h3 {
+  font-family: "Nunito";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 50px;
+  letter-spacing: 0.005em;
+  color: #3f3f55;
+}
+
+.details__table h3,
+.details__content span {
+  width: 150px;
+  margin-left: 10px;
+}
+
+.details__table h3:first-child,
+.details__content span:first-child {
+  margin-left: 25px;
+}
+
+.details__content span:first-child {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.details__content .details__content-id {
+  padding-left: 30px;
+}
+
+.details__content {
+  height: 50px;
+  align-items: center;
+}
+
+.details__content span {
+  font-family: "Nunito";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 40px;
+  letter-spacing: 0.005em;
+  color: #6e6e85;
+}
+
+.details__footer {
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 4px 4px rgba(172, 217, 197, 0.25);
+  padding-bottom: 10px;
+  border-radius: 20px;
+}
+
+.details__footer p {
+  color: var(--cor-primaria-rosa);
+  text-decoration: underline;
+  cursor: pointer;
+  font-family: "Nunito";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  margin-top: 10px;
+}

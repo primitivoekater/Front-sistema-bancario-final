@@ -1,0 +1,121 @@
+.card__clients {
+  width: 556px;
+  border-radius: 20px;
+}
+
+.client__header {
+  height: 58px;
+  justify-content: space-between;
+  padding: 0px 24px;
+  border-bottom: 2px solid #e5e5e8;
+}
+
+.client__header,
+.client__text {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.client__text h3 {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  color: #3f3f55;
+  margin-left: 8px;
+}
+
+.client__header span {
+  padding: 0px 15px;
+  background: #ffefef;
+  border-radius: 8px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #971d1d;
+}
+
+.client__table {
+  height: 50px;
+}
+
+.client__table,
+.client__content {
+  display: flex;
+  border-bottom: 1px solid #e5e5e8;
+  background-color: #fff;
+}
+
+.client__table h3 {
+  font-family: "Nunito";
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 50px;
+  letter-spacing: 0.005em;
+  color: #3f3f55;
+}
+
+.client__content {
+  height: 40px;
+}
+
+.client__content span {
+  font-family: "Nunito";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 40px;
+  letter-spacing: 0.005em;
+  color: #747488;
+}
+
+.client__table h3,
+.client__content span {
+  width: 200px;
+}
+
+.client__table h3 {
+  margin-left: 50px;
+}
+
+.client__content span {
+  margin-left: 10px;
+}
+
+.client__table h3:first-child,
+.client__content span:first-child {
+  margin-left: 25px;
+}
+
+.client__content span:first-child {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.client__content-id {
+  padding-left: 50px;
+}
+
+.client__footer {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  box-shadow: 0px 4px 4px rgba(172, 217, 197, 0.25);
+  background-color: #fff;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.client__footer p {
+  color: var(--cor-primaria-rosa);
+  text-decoration: underline;
+  cursor: pointer;
+  font-family: "Nunito";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  margin-top: 10px;
+}

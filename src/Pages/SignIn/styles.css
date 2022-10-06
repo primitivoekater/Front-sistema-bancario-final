@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@700&family=Nunito:wght@400;600&display=swap");
+.container__signIn {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.container__background {
+    display: flex;
+    background-image: url("../../assets/backgroundLogin.svg");
+    background-size: cover;
+    background-position-y: center;
+    width: 500px;
+    height: 100%;
+}
+
+.container__background p {
+    width: 490px;
+    height: 93px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+    color: var(--cor-primaria-verde);
+    padding: 160px 47px 0px 35px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 1412px;
+}
+
+.container h1 {
+    font-family: "Montserrat";
+    font-size: 24px;
+    line-height: 31px;
+    color: #343447;
+    margin-bottom: 32px;
+}
+
+.form__login label {
+    font-family: "Nunito";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #344054;
+}
+
+.form__login input {
+    all: unset;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 14px;
+    gap: 8px;
+    width: 344px;
+    height: 44px;
+    background: #ffffff;
+    border: 1px solid #d0d5dd;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+}
+
+input::placeholder {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+}
+
+.container__inputLogin {
+    position: relative;
+}
+
+.form_login_label span {
+    margin-left: 52%;
+    font-family: "Nunito";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    color: var(--cor-primaria-rosa);
+}
+
+.form_login_btn {
+    all: unset;
+    text-align: center;
+    width: 160px;
+    height: 33px;
+    margin-top: 40px;
+    background: var(--cor-primaria-rosa);
+    border-radius: 10px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.form__login__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 344px;
+}
+
+.form__login__buttons p {
+    font-family: "Nunito";
+    font-size: 14px;
+    color: #3f3f55;
+    margin-top: 15px;
+}
+
+.form__login__buttons strong {
+    font-family: "Nunito";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    color: var(--cor-primaria-rosa);
+}
+
+@media only screen and (max-width: 900px) {
+    .container__background {
+        display: none;
+        width: 0px;
+    }
+    .container__background p {
+        display: none;
+    }
+}

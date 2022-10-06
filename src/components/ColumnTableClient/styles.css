@@ -1,0 +1,73 @@
+.pageClient__tableColumn {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #eff0f6;
+  height: 50px;
+}
+
+.pageClient__tableColumn span:first-child {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.pageClient__tableColumn img {
+  margin-left: 40px;
+}
+
+.tableColumn__text {
+  font-family: "Nunito";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 40px;
+  letter-spacing: 0.005em;
+  color: #747488;
+  width: 180px;
+}
+
+.tableColumn__status {
+  padding: 0px 8px;
+  border-radius: 8px;
+  height: 19px;
+  font-family: "Nunito";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.stts-inadimplente {
+  margin-right: 80px;
+  background: #ffefef;
+  color: #971d1d;
+}
+
+.stts-emDia {
+  background: #eef6f6;
+  color: #1fa7af;
+  margin-right: 120px;
+}
+
+.column__name {
+  margin-right: 0%;
+}
+
+.column__cpf {
+  margin-right: -33px;
+}
+
+.table__email {
+  margin-left: 28px;
+  max-width: 19ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-right: 8px;
+}
+
+.table__telefone {
+  margin-left: 12px;
+  max-width: 20ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-right: 1%;
+}

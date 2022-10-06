@@ -1,0 +1,129 @@
+.pageCobranca__tableColumn,
+.tableColumn__content {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #eff0f6;
+  height: 50px;
+}
+
+.tableColumn__content span:first-child {
+  margin-left: 5px;
+}
+
+.pageCobranca__tableColumn img {
+  margin-left: 40px;
+}
+
+.tableColumnCobranca__text {
+  font-family: "Nunito";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 40px;
+  letter-spacing: 0.005em;
+  color: #747488;
+  width: 180px;
+}
+
+.tableColumnCobranca__status {
+  padding: 0px 8px;
+  border-radius: 8px;
+  height: 19px;
+  font-family: "Nunito";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.stts-Vencida {
+  margin-right: 80px;
+  background: #ffefef;
+  color: #971d1d;
+}
+
+.table__status__vencida {
+  margin-left: 40px;
+  margin-right: 110px;
+}
+
+.stts-Pago {
+  background: #eef6f6;
+  color: #1fa7af;
+  margin-right: 118px;
+}
+
+.stts-Pendente {
+  background: #fcf6dc;
+  margin-right: 118px;
+  color: #c5a605;
+}
+
+.table__status__pendente {
+  margin-left: 40px;
+  margin-right: 100px;
+}
+
+.table__Name {
+  max-width: 12ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.tableId {
+  margin-left: 40px;
+  max-width: 12ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.table__Valor {
+  margin-left: 20px;
+  max-width: 12ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.table__Data {
+  margin-left: 35px;
+  max-width: 12ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.table__Descricao {
+   margin-left: -48px;
+    margin-right: 2px;
+    max-width: 30ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 240px;
+}
+
+.table___status__Pago {
+  margin-left: 39px;
+  max-width: 20ch;
+  margin-right: 127px;
+  padding-left: 9px;
+  padding-right: 9px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.buttons__Icons {
+  position: relative;
+  margin-left: 1%;
+  width: 13%;
+}
+
+.btn__edit {
+  cursor: pointer;
+}
+
+.btn__delete {
+  cursor: pointer;
+}

@@ -1,0 +1,122 @@
+.pageDetailClient__tableColumn {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eff0f6;
+    height: 50px;
+}
+
+.tableDetailClient__text {
+    font-family: "Nunito";
+    font-size: 14px;
+    line-height: 40px;
+    letter-spacing: 0.005em;
+    color: #747488;
+    width: 165px;
+}
+
+.tableDetailClient__text:first-child {
+    margin-left: 40px;
+}
+
+.value__Detalhe__cliente {
+    width: 115px;
+}
+
+.stts-Vencida__Client {
+    margin-right: 80px;
+    background: #ffefef;
+    color: #971d1d;
+}
+
+.stts-Pago__Client {
+    background: #eef6f6;
+    color: #1fa7af;
+    margin-right: 99px;
+}
+
+.stts-Pendente__Client {
+    background: #FCF6DC;
+    margin-right: 118px;
+    color: #C5A605;
+}
+
+.status__vencida__Detalhe__cliente {
+    margin-left: 40px;
+    margin-right: 80px;
+}
+
+.status__Pago__Detalhe__Cliente {
+    margin-left: 39px;
+    margin-right: 102px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+.status__pendente__Detalhe__cliente {
+    margin-left: 40px;
+    margin-right: 72px;
+}
+
+.data__Detalhe__cliente {
+    margin-left: 68px;
+    max-width: 12ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.id__Detalhe__cliente {
+    margin-left: 40px;
+    max-width: 12ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.value__Detalhe__cliente {
+    margin-left: 61px;
+    max-width: 12ch;
+    margin-right: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.table__Data {
+    margin-left: 35px;
+    max-width: 12ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.descricao__Detalhe__cliente {
+    margin-left: 21px;
+    margin-right: 2px;
+    max-width: 25ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 211px;
+}
+
+.conteiner__btn {
+    width: 348px;
+    height: 40px;
+}
+
+.btns__tableDetail {
+    position: relative;
+    margin-left: 4%;
+    width: 13%;
+    display: flex;
+    gap: 24px;
+}
+
+.btn__edit {
+    cursor: pointer;
+}
+
+.btn__delete {
+    cursor: pointer;
+}

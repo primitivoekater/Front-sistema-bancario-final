@@ -1,0 +1,19 @@
+.MuiSvgIcon-root {
+  color: var(--cor-primaria-verde) !important;
+}
+
+.progress__step {
+  font-family: "Montserrat" !important;
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  line-height: 23px !important;
+  color: var(--cor-primaria-verde) !important;
+}
+
+.progress__subStep {
+  font-family: "Nunito" !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  line-height: 32px !important;
+  color: #3f3f55 !important;
+}

@@ -1,0 +1,159 @@
+.container__signUp {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.signUp__left {
+    width: 33%;
+    background: #f0f0f5;
+    padding-top: 154px;
+    padding-left: 20px;
+}
+
+.signUp__right {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__form {
+    width: 380px;
+}
+
+.form__title {
+    font-family: "Montserrat";
+    font-size: 24px;
+    line-height: 31px;
+    color: #343447;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.form__btn {
+    all: unset;
+    margin: 26px 110px 15px;
+    padding: 4px;
+    width: 160px;
+    height: 33px;
+    background: var(--cor-primaria-rosa);
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    font-family: "Nunito";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #f8f8f9;
+}
+
+.form__footer {
+    margin: 0px 50px;
+    width: 294px;
+    font-family: "Nunito";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #3f3f55;
+}
+
+.form__footer a {
+    color: var(--cor-primaria-rosa);
+    margin-left: 3px;
+}
+
+.container__sucess {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card__sucess {
+    width: 500px;
+    height: 412px;
+    background: #f0f0f5;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.sucess__btn {
+    margin: 34px 205px 0px;
+}
+
+.container__progressBar {
+    width: 262px;
+    height: 6px;
+    display: flex;
+    gap: 8px;
+    position: absolute;
+    bottom: 20px;
+}
+
+.bar {
+    width: 82px;
+    height: 6px;
+    background: #dedee9;
+    border-radius: 20px;
+}
+
+.select {
+    background: #0e8750;
+}
+
+@media only screen and (max-width: 900px) {
+    .container__signUp {
+        width: 94vw;
+        height: 100vh;
+        display: flex;
+        align-content: stretch;
+        justify-content: space-evenly;
+    }
+    .signUp__left {
+        display: none;
+        width: 0px;
+    }
+    .signUp__right {
+        width: 96%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container__form {
+        display: grid;
+        width: 410px;
+    }
+    .container__input input {
+        all: unset;
+        padding-left: 15px;
+        margin-left: 39px;
+        width: 311px;
+        height: 44px;
+        background: #ffffff;
+        border: 1px solid #d0d5dd;
+        box-shadow: 0px 1px 2px rgb(16 24 40 / 5%);
+        border-radius: 8px;
+    }
+    .container__input label {
+        font-family: "Nunito";
+        margin-left: 42px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        color: #344054;
+        margin-bottom: 6px;
+    }
+    .eyeIcon {
+        position: absolute;
+        top: 37px;
+        right: 42px;
+        width: 24px;
+    }
+}

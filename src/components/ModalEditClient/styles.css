@@ -1,0 +1,202 @@
+.modal {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background: rgba(145, 154, 150, 0.3);
+    backdrop-filter: blur(4px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__modal__client__Edit {
+    width: 550px;
+    height: 758px;
+    background: #ffffff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container__avatar__Edit {
+    display: flex;
+    align-items: flex-start;
+    margin-right: 46%;
+}
+
+.container__avatar__Edit img {
+    margin-right: 25px;
+}
+
+.container__avatar__Edit h1 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #343447;
+    margin-bottom: 15px;
+}
+
+.btn__close {
+    all: unset;
+    margin-left: 81%;
+    margin-top: 7%;
+    cursor: pointer;
+}
+
+.content__modal__client form {
+    display: flex;
+    flex-direction: column;
+}
+
+.content__modal__client label {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #344054;
+    margin-bottom: 5px;
+}
+
+.content__modal__client input {
+    all: unset;
+    width: 447px;
+    height: 44px;
+    background: #ffffff;
+    border: 1px solid #d0d5dd;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    padding-left: 14px;
+    margin-bottom: 10px;
+}
+
+.form__group {
+    display: flex;
+}
+
+.form__left input {
+    display: flex;
+    flex-direction: column;
+    width: 211px;
+    height: 44px;
+    background: #ffffff;
+    border: 1px solid #d0d5dd;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    margin-right: 24px;
+}
+
+.form__right input {
+    display: flex;
+    flex-direction: column;
+    width: 211px;
+    height: 44px;
+    background: #ffffff;
+    border: 1px solid #d0d5dd;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+}
+
+.eyeIcon {
+    position: absolute;
+    top: 37px;
+    right: 10px;
+    width: 24px;
+}
+
+.form__group__btn {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.btn__modal__aplicar {
+    all: unset;
+    width: 160px;
+    height: 33px;
+    border-radius: 10px;
+    background-color: var(--cor-primaria-rosa);
+    text-align: center;
+    color: #f8f8f9;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 45px;
+    cursor: pointer;
+}
+
+.btn__modal__cancelar {
+    all: unset;
+    width: 160px;
+    height: 33px;
+    border-radius: 10px;
+    background: #f8f8f9;
+    border: 1px solid #dedee9;
+    border-radius: 10px;
+    text-align: center;
+    color: var(--cor-primaria-verde);
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 45px;
+    cursor: pointer;
+}
+
+.container__modal__confirmed {
+    background: #ffffff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 600px;
+    height: 512px;
+}
+
+.content__modal__confirmed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content__modal__confirmed img {
+    margin-bottom: 24px;
+}
+
+.form__left__cidade input {
+    display: flex;
+    flex-direction: column;
+    width: 277px;
+    height: 44px;
+    background: #ffffff;
+    border: 1px solid #d0d5dd;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+}
+
+.form__right__uf input {
+    display: flex;
+    flex-direction: column;
+    width: 145px;
+    height: 44px;
+    background: #ffffff;
+    border: 1px solid #d0d5dd;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    margin-left: 24px;
+}
+
+.form__right__uf label {
+    margin-left: 24px;
+}

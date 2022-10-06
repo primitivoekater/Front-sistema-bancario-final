@@ -1,0 +1,134 @@
+.detailClient__header {
+    width: 100%;
+    border-bottom: 1px solid #acd9c5;
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 24px;
+}
+
+.detailClient__header h3 {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.detailClient__header-title {
+    color: var(--cor-primaria-verde);
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.detailClient__header-subtitle {
+    color: #747488;
+}
+
+.detailClient__card-detail {
+    width: 1115px;
+    height: 268.53px;
+    background: #ffffff;
+    border-radius: 30px;
+    padding: 24px;
+    margin: 24px 0px;
+}
+
+.containerCardDetail__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.containerCardDetail__header h3 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #3f3f55;
+}
+
+.containerCardDetail__header button {
+    all: unset;
+    display: flex;
+    align-items: center;
+    padding: 4px 60px;
+    background: #f8f8f9;
+    border: 1px solid #dedee9;
+    border-radius: 10px;
+    font-family: "Nunito";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: var(--cor-primaria-verde);
+    cursor: pointer;
+}
+
+.containerCardDetail__content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+.containerCardDetail__content div p {
+    font-family: "Nunito";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3f3f55;
+}
+
+.containerCardDetail__content div span {
+    font-family: "Nunito";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3f3f55;
+}
+
+.detailClient__card-charges {
+    padding: 24px;
+    width: 1115px;
+    background: #ffffff;
+    border-radius: 30px;
+}
+
+.containerCardCharges__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.containerCardCharges__header h3 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #3f3f55;
+}
+
+.containerCardCharges__header button {
+    all: unset;
+    padding: 4px 56px;
+    background: #da0175;
+    border-radius: 10px;
+    font-family: "Nunito";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #f8f8f9;
+    cursor: pointer;
+}
+
+.tableHeader__detailClient {
+    display: flex;
+    margin-top: 12px;
+}
+
+.tableHeader__detailClient h3 {
+    font-family: "Nunito";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 50px;
+    letter-spacing: 0.005em;
+    color: #3f3f55;
+    width: 160px;
+}

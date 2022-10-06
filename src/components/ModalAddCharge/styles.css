@@ -1,0 +1,145 @@
+.modal {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background: rgba(145, 154, 150, 0.3);
+  backdrop-filter: blur(4px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__modal__addCharge {
+  width: 600px;
+  height: 620px;
+  background: #ffffff;
+  border-radius: 30px;
+  padding: 48px 57px 40px;
+  position: relative;
+}
+
+.addCharge__closeIcon {
+  position: absolute;
+  top: 28px;
+  right: 24px;
+  cursor: pointer;
+}
+
+.addCharge__header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.addCharge__header h2 {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 34px;
+  color: #3f3f55;
+}
+
+.container__form-input {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 16px;
+}
+
+.container__form-input label {
+  font-family: "Nunito";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #3f3f55;
+}
+
+.container__form-input input {
+  all: unset;
+  padding-left: 16px;
+  width: 485px;
+  height: 44px;
+  background: #ffffff;
+  border: 1px solid #d0d5dd;
+  border-radius: 8px;
+}
+
+.container__form-input textarea {
+  padding-top: 10px;
+  padding-left: 16px;
+  width: 505px;
+  background: #ffffff;
+  border: 1px solid #d0d5dd;
+  border-radius: 8px;
+  resize: none;
+
+  font-family: "Nunito";
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.container__form-input textarea:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.container__form-div {
+  display: flex;
+  gap: 24px;
+}
+
+.container__form-div input {
+  width: 223px;
+}
+
+.container__form-checkbox {
+  padding: 12px 16px;
+  width: 505px;
+  height: 48px;
+  background: #f0f0f5;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.container__form-checkbox input {
+  display: none;
+}
+
+.container__form-checkbox label {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3f3f55;
+}
+
+.container__form-checkbox input + label:before {
+  content: "";
+  width: 18px;
+  height: 18px;
+  background: #c8c8d7;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 4px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.container__form-checkbox input:checked + label:before {
+  background-image: url("data:image/svg+xml,%3Csvg width='11' height='9' viewBox='0 0 11 9' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9.72727 1.4541L3.72727 7.99956L1 5.02435' stroke='%23FCFCFC' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+  background-color: var(--cor-primaria-verde);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.group__btn-addcharge {
+  margin-top: 20px;
+}

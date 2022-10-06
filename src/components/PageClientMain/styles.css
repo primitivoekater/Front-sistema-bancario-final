@@ -1,0 +1,103 @@
+.pageClient__header h3 {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--cor-primaria-verde);
+    margin-top: 53px;
+}
+
+.pageClient__subHeader {
+    margin-top: 30px;
+    margin-right: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subHeader__titles,
+.subHeader__interactions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.subHeader__titles h1 {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 34px;
+    color: #3f3f55;
+}
+
+.subHeader__interactions {
+    position: relative;
+}
+
+.subHeader__interactions button {
+    all: unset;
+    width: 267px;
+    height: 33px;
+    background: var(--cor-primaria-rosa);
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    font-family: "Nunito";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #f8f8f9;
+}
+
+.subHeader__interactions input {
+    all: unset;
+    width: 322px;
+    height: 40px;
+    padding-left: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+.subHeader__iconSearch {
+    position: absolute;
+    right: 10px;
+}
+
+.PageClient__table {
+    margin-top: 24px;
+    padding: 12px 23px;
+    width: 95%;
+    background: #ffffff;
+    border-radius: 30px;
+}
+
+.pageClient__tableHeader {
+    border-bottom: 1px solid #eff0f6;
+}
+
+.pageClient__tableHeader,
+.tableHeader__container {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+}
+
+.tableHeader__container {
+    cursor: pointer;
+}
+
+.pageClient__tableHeader li {
+    font-family: "Nunito";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 50px;
+    letter-spacing: 0.005em;
+    color: #3f3f55;
+    width: 180px;
+    list-style-type: none;
+    padding-right: 14px;
+}

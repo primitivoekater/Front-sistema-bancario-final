@@ -1,0 +1,51 @@
+.container__modal__delCharge {
+  width: 600px;
+  height: 400px;
+  background: #ffffff;
+  border-radius: 30px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container__modal__delCharge h2 {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  color: #cc7800;
+}
+
+.delCharge__btns {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 26px;
+}
+
+.delCharge__btns button {
+  cursor: pointer;
+  width: 100px;
+  height: 25px;
+  border-radius: 4px;
+  font-family: "Nunito";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.delCharge__btn-cancel {
+  all: unset;
+  color: #ae1100;
+  background: #f2d6d0;
+  text-align: center;
+}
+
+.delCharge__btn-yes {
+  all: unset;
+  color: #034a2a;
+  background: #acd9c5;
+  text-align: center;
+}
